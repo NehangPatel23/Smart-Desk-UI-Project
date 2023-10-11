@@ -1,0 +1,151 @@
+/* ControlScreen.css */
+
+/* Apply styles to the body or a container div to set the background color */
+body {
+    background-color: rgb(77, 215, 249);
+}
+
+/* Styling for the control screen */
+#extra_screen {
+    text-align: center;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styling for the DND button and popup */
+.popup {
+    position: relative;
+    margin: 10px;
+}
+
+.dnd {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.popuptext {
+    visibility: visible;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.show {
+    visibility: visible;
+}
+
+.button-container {
+    margin: 10px;
+    text-align: center;
+}
+
+.button {
+    margin-bottom: 10px; /* Add space below each button */
+  }
+  
+.speakers,
+.screen,
+.do_not_disturb,
+.hdmi_dock,
+.multi_chargers,
+.usb,
+.wireless,
+.height_adjust,
+.clock_timer,
+.wb,
+.work_break_mode,
+.ambient_lighting {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add more specific styles as needed */
+
+/* Style for the range slider container */
+.range-slider {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Style for the range slider */
+#tableHeight {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Style for the table height display */
+tableHeightDisplay {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+/* ControlScreen.css */
+
+.button {
+    margin: 10px 0; /* Add vertical spacing between buttons */
+    padding: 5px; /* Add horizontal padding for buttons */
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  
+/* Add a class to style active buttons */
+.active-button {
+    background-color: #007bff; /* Change this to your desired highlight color */
+    color: white;
+  }
+
+  
+  /* Add styles for the overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style for the highlighted button */
+  .active-button {
+    background-color: #007bff; /* Change this to your desired highlight color */
+    color: white;
+  }
+  
+  
+  .ambient-lighting-active {
+    background-color: wheat;
+    transition: background-color 0.5s;
+}
