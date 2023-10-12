@@ -20,7 +20,7 @@ These instructions will help you get the project up and running on your local ma
 
 ### Prerequisites
 
-- Node.js and npm (Node Package Manager) should be installed on your system.
+- Node.js and npm (Node Package Manager) should be installed on your system. If you don't have them installed, you can download and install Node.js from the official website: [Node.js Downloads](https://nodejs.org/en/download).
 
 ### Installation
 
@@ -45,10 +45,10 @@ These instructions will help you get the project up and running on your local ma
 4. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-The Smart Desk UI web application should now be running locally at <`http://localhost:3000`>.
+The Smart Desk UI web application should now be running locally at <`http://localhost:5173`>.
 
 ## Features
 
@@ -72,37 +72,4 @@ The Smart Desk UI web application provides the following features:
 
 4. Explore the weather information and current time display.
 
-## Customization
 
-The application can be customized in several ways:
-
-- You can add more control buttons and popups by modifying the JSX in the `ControlScreen` component.
-- To change the styling, modify the CSS rules in the `ControlScreen.css` file.
-
-## Contributing
-
-Contributions to the project are welcome. Please follow these steps:
-
-1. Fork the repository.
-
-2. Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-
-3. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Add new feature"
-   ```
-
-4. Push your changes to your fork:
-
-   ```bash
-   git push origin feature/new-feature
-   ```
-
-5. Create a pull request, describing your changes and their purpose.
-
-6. Your pull request will be reviewed, and once accepted, your changes will be merged into the main project.
