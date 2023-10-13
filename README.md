@@ -105,7 +105,7 @@ The Smart Desk UI web application provides the following features:
 
 ## Demo Video
 
-The demo video will be linked here.
+The demo video can be found [here](https://www.veed.io/embed/d9418a36-6fdf-417e-98ec-a98976a50460).
 
 
 <br>
@@ -220,3 +220,8 @@ In order to better understand the diverse needs and preferences of potential use
  - The user interface should offer lighting customization options.
 
  - A feedback system should be available for users to report and address any distractions or challenges in their workspace.
+
+<br>
+
+##### Note
+I know this is the very basic implementation, but I struggled a lot with this project since all of this is very new to me. I am still trying to learn React and JavaScript.
