@@ -113,7 +113,19 @@ The demo video will be linked here.
 
 ## Prototype Sketches
 
-The prototype sketches can be found on my [Portfolio Site](https://sites.google.com/view/nehang-patel-portfolio/classes/user-interfaces-i/project-1). I had a 37-page document for the sketches, which I was not able to embed here, so I included a link to my portfolio site here.
+The prototype sketches can be found on my [Portfolio Site](https://sites.google.com/view/nehang-patel-portfolio/classes/user-interfaces-i/project-1). I had a 37-page document for the sketches, which I was not able to embed here, so I included a link to my portfolio site here. However, below are the sketches of how I envisioned my UI too look like:
+
+<img width="651" alt="Screenshot 2023-10-12 at 8 43 51 PM" src="https://github.com/NehangPatel23/Smart-Desk-UI-Project/assets/90214774/717bf8cf-3e16-40e7-95d8-cf0b69441a33">
+
+<img width="645" alt="Screenshot 2023-10-12 at 8 50 27 PM" src="https://github.com/NehangPatel23/Smart-Desk-UI-Project/assets/90214774/9bc5973f-6cce-457d-8d6a-5605238c36f1">
+
+<img width="645" alt="Screenshot 2023-10-12 at 8 50 39 PM" src="https://github.com/NehangPatel23/Smart-Desk-UI-Project/assets/90214774/a3d2df52-e7b5-4505-954f-4662fe5c96dc">
+
+<br>
+</br>
+
+**Feedback Recieved on Prototype UI Sketches:**
+According to the feedback on the skeleton sketch, overall, the design of the desk as a whole looks good, and the placement of the elements looks fine. The layout and organization of elements are clear and intuitive. Users should have no trouble navigating the interface. The accessibility looks good, as the buttons are large enough and the text is legible. Work is still needed to implement feedback mechanisms for the buttons, though. I could also maybe incorporate some kind of smart device connectivity, user onboarding (for first-time users), and user feedback (for errors), etc. in some way, but I think that is something for a later part of the project.
 
 
 <br>
@@ -149,7 +161,7 @@ The prototype sketches can be found on my [Portfolio Site](https://sites.google.
 
 ### **Interview Questions:**
 
-Here's a combined summary for all three interviewees for each question:
+In order to better understand the diverse needs and preferences of potential users, I conducted interviews with three individuals, each with their own unique use cases for a desk. These interviews shed light on how people utilize their desks, their daily routines, and their expectations for a "smart desk" – a desk that can adapt to and enhance their work environment. The responses provide valuable insights for designing desks that can cater to a wide range of professional and personal activities, emphasizing the importance of functionality, organization, and adaptability. Below, I present a summarized overview of the insights gathered from these interviews:
 
 **Question 1: What do you use a desk for?**
 
