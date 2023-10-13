@@ -35,19 +35,25 @@ function ControlScreen() {
     setPomodoroTime(customPomodoroTime * 60); // Set the timer to custom time
     setIsPomodoroVisible(true); // Show the Pomodoro timer
     setIsCustomTimeVisible(false); // Hide the custom time input
-
+  
     const pomodoroInterval = setInterval(() => {
-      if (pomodoroTime > 0) {
-        setPomodoroTime((prevTime) => prevTime - 1);
-      } else {
-        clearInterval(pomodoroInterval);
-        setIsPomodoroActive(false);
-        setPomodoroTime(0); // Ensure the timer is set to 0
-        alarmAudio.play(); // Play the alarm sound
-        alert('Pomodoro session is over! Take a break.');
-      }
+      setPomodoroTime((prevTime) => {
+        if (prevTime > 0) {
+          return prevTime - 1;
+        } else {
+          clearInterval(pomodoroInterval);
+          setIsPomodoroActive(false);
+          alarmAudio.play(); // Play the alarm sound
+          audioPlayed = true;
+          setIsPomodoroVisible(false); // Hide the Pomodoro timer
+          if (audioPlayed = true){
+            alert('Pomodoro session is over! Take a break.');
+          }
+          return 0; // Ensure the timer is set to 0
+        }
+      });
     }, 1000);
-  }
+  }  
 
   // Function to handle the "WORK BREAK MODE" button click
   function handleWorkBreakModeClick() {
@@ -306,7 +312,7 @@ function ControlScreen() {
                   onClick={handleWorkBreakModeClick}
                 >
                   <i className="fas fa-hourglass-start"></i>
-                  WORK BREAK MODE
+                  WORK-BREAK MODE
                 </button>
                 {popupVisible.workBreakMode && (
                   <div className="popup">
