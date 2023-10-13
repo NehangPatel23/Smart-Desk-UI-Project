@@ -5,6 +5,24 @@ body {
     background-color: rgb(77, 215, 249);
 }
 
+/* Styling for the tablet frame */
+.tablet {
+    background-color: #fff;
+    border: 10px solid #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+/* Center the tablet frame */
+.tablet-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Styling for the control screen */
 #extra_screen {
     text-align: center;
@@ -102,7 +120,6 @@ tableHeightDisplay {
     margin-top: 10px;
     font-size: 16px;
 }
-
 
 /* ControlScreen.css */
 
