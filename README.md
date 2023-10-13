@@ -16,7 +16,7 @@ The Smart Desk UI is a React-based interface that provides control and informati
 - [Usage](#usage)
 - [Demo Video](#demo-video)
 - [Prototype Sketches](#prototype-sketches)
-- [Design Challenges & Interviews](#design-challenges-&-interviews)
+- [Design Challenges & Interviews](#design-challenges--interviews)
     - [Assumptions about the Smart Desk](#assumptions-about-the-smart-desk)
     - [Interview Questions](interview-questions)
     - [Design Requirements](#design-requirements)
