@@ -149,7 +149,7 @@ The prototype sketches can be found on my [Portfolio Site](https://sites.google.
 
 ### **Interview Questions:**
 
-Certainly, here's a combined summary for all three interviewees for each question:
+Here's a combined summary for all three interviewees for each question:
 
 **Question 1: What do you use a desk for?**
 
