@@ -4,6 +4,7 @@ import alarmSound from './assets/alarm.mp3'; // Import an alarm sound (replace w
 
 function ControlScreen() {
   const [showHeightAdjust, setShowHeightAdjust] = useState(false);
+  const [dndMessage, setDndMessage] = useState(''); // Initialize with an empty message
   const [tableHeight, setTableHeight] = useState(100);
   const [popupVisible, setPopupVisible] = useState({
     speakers: false,
@@ -80,15 +81,32 @@ function ControlScreen() {
       ...prevPopupVisible,
       doNotDisturb: !prevPopupVisible.doNotDisturb,
     }));
-
-    // Automatically hide the popup after 5 seconds
+  
+    // Create an array of fun responses
+    const funResponses = [
+      'Do Not Disturb Mode Enabled. Shhh... Quiet time!',
+      'Enjoy your peace and quiet!',
+      'Time to relax without any interruptions!',
+      'Do Not Disturb Mode: Silence is golden!',
+      'No more notifications - it\'s your time now!'
+    ];
+  
+    // Select a random fun response
+    const randomResponse = funResponses[Math.floor(Math.random() * funResponses.length)];
+  
+    // Set the message to the selected response
+    setDndMessage(randomResponse);
+  
+    // Automatically hide the message after 5 seconds
     setTimeout(() => {
+      setDndMessage('');
       setPopupVisible((prevPopupVisible) => ({
         ...prevPopupVisible,
         doNotDisturb: false,
       }));
     }, 5000);
   }
+  
 
   // Function to handle the "HEIGHT ADJUST" button click
   function handleHeightAdjustClick() {
@@ -215,7 +233,7 @@ function ControlScreen() {
                 {popupVisible.doNotDisturb && (
                   <div className="popup">
                     <span className="popuptext" id="doNotDisturbPopup">
-                      Do Not Disturb Mode Enabled. Click again to disable.
+                      {dndMessage}
                     </span>
                   </div>
                 )}
