@@ -1,8 +1,8 @@
 # Smart-Desk-UI-Project
-This repository contains my implementation of the Smart Desk UI. 
 
-The Smart Desk UI is a React-based interface that provides control and information display for a virtual tablet-like device. It offers features such as controlling speakers, screen, Do Not Disturb mode, HDMI dock, and more. Additionally, it includes a Pomodoro timer, weather information, and customizable settings.
+The Smart Desk UI is a React-based interface that provides control and information display for a virtual tablet-like device. It offers features such as controlling speakers, screen, Do Not Disturb mode, HDMI dock, and more. Additionally, it includes a Pomodoro timer, weather information, and customizable settings. The user can also adjust the table settings such as adjusting the table's height, change the ambient lighting, etc. I envision this UI to be kind of like a tablet/iPad that can be magnetically attached onto the smart desk's surface. The user can use productivity applications and other plug-ins that they may wish to install with the Smart Desk UI. My desired interface for the smart desk would look somethiing like this:
 
+![image](https://github.com/NehangPatel23/Smart-Desk-UI-Project/assets/90214774/8a6824f5-b3fe-45a2-ae10-eeca972aab56)
 
 <br>
 
