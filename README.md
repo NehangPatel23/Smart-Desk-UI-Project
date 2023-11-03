@@ -69,6 +69,8 @@ These instructions will help you get the project up and running on your local ma
 
 The Smart Desk UI web application should now be running locally at <`http://localhost:5173`>.
 
+Alternately, the project can also be accessed at my [Vercel Site](https://smart-desk-ui-project-ndoaj3s99-nehangs-projects.vercel.app/).
+
 
 <br>
 
